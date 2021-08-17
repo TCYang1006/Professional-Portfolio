@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    height: 1200px;
     color:white;
     background-color: black;
     font-family:Helvetica, Ariall, sans-serif;
@@ -12,6 +13,7 @@ header{
     padding: 20px 35px;
     background-color: black;
 }
+
 header h1{
     font-weight: bold;
     font-size: 36px;
@@ -19,18 +21,57 @@ header h1{
     margin: 0;
     display: inline;
 }
-header a{
-    color: white;
-}
 header nav{
     float: right;
     margin: 7px 0;
 }
+header a{
+    color: white;
+}
+
 header nav ul li{
     display: inline;
+
 }
 header nav ul li a{
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+}
+header nav ul li a:hover{
+    color:red;
+}
+
+/*first background*/
+.first-background {
+    /*background-image: url('../images/stock-vector-math-educational.jpg');*/
+    background-color:transparent;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.first-background h3{
+    color: white;
+    font-weight: bold;
+    font-size:24px;
+    margin: 50px 0 0 30px;
+}
+.first-background p{
+    color: white;
+    font-size: 18px;
+    margin:0 0 0 90px;
+}
+
+/*Contact Section*/
+.personal-contact h2{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin:0;
+}
+.personal-contact p{
+    color: white;
+    font-weight: normal;
+    font-size: 12px;
 }
