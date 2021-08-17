@@ -44,7 +44,6 @@ header nav ul li a:hover{
 
 /*first background*/
 .first-background {
-    /*background-image: url('../images/stock-vector-math-educational.jpg');*/
     background-color:transparent;
     height: 600px;
     background-size: cover;
@@ -62,6 +61,7 @@ header nav ul li a:hover{
     font-size: 18px;
     margin:0 0 0 90px;
 }
+/*end first background*/
 
 /*Contact Section*/
 .personal-contact h2{
@@ -75,3 +75,4 @@ header nav ul li a:hover{
     font-weight: normal;
     font-size: 12px;
 }
+/*End Contact Section*/
