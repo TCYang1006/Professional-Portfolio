@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    height: 1200px;
+    height: 2200px;
     color:white;
     background-color: black;
     font-family:Helvetica, Ariall, sans-serif;
@@ -47,7 +47,7 @@ header nav ul li a:hover{
 
 /*first background*/
 .first-background {
-    background-color:transparent;
+    background-image:url("../images/stock-vector-math-educational.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -60,11 +60,45 @@ header nav ul li a:hover{
     margin: 50px 0 0 30px;
 }
 .first-background p{
-    color: white;
-    font-size: 18px;
-    margin:0 0 0 90px;
+    color: red;
+    font-size: 48px;
+    font-weight: bold;
+    margin:3.5%;
+    text-align: center;
+    vertical-align: bottom;
 }
 /*end first background*/
+
+/*Portfolio Section*/
+.project{
+    font-size: 24px;
+    color: white;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+.proj-info{
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.proj-img{
+    flex: 1 12%;
+    margin-right: 20px;
+}
+.prog-img img{
+    width: 100%;
+}
+.text{
+    flex:12;
+}
+.text h4{
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+}
 
 /*Bio Section*/
 .row{
@@ -103,7 +137,7 @@ header nav ul li a:hover{
 .living img{
     width: 100%;
 }
-/*Contact Section*/
+/*Contact Section & Footer*/
 .personal-contact h2{
     color: white;
     font-weight: bold;
@@ -114,7 +148,7 @@ header nav ul li a:hover{
 .personal-contact h3{
     color: white;
     font-size: 18px;
-    margin: 40 0 100 0;
+    margin: 0;
     text-align: center;
 }
 .personal-contact h4{
@@ -122,5 +156,9 @@ header nav ul li a:hover{
     font-weight: normal;
     font-size: 12px;
     text-align: center;
+    padding-top:5px;
+}
+.personal-contact h4 a{
+    color: white;
 }
 /*End Contact Section*/
